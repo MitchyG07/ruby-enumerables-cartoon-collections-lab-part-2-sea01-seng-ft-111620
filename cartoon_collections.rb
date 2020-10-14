@@ -21,7 +21,8 @@ end
 def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   
-  puts planeteer_calls & valid_calls
+  new_array = planeteer_calls & valid_calls
+  return new_array[0]
 
 end
 
